@@ -12,14 +12,14 @@ export default function SearchField() {
       <span className={'me-1 ms-auto'}>
         <kbd
           className={
-            'dark:bg-dark text-gray-30 me-1 inline-flex h-5 w-10 items-center justify-center rounded-md border border-transparent bg-white p-0 text-center align-middle text-xs'
+            'text-gray-30 me-1 inline-flex h-5 w-10 items-center justify-center rounded-md border border-transparent bg-white p-0 text-center align-middle text-xs dark:bg-black'
           }
         >
           Ctrl
         </kbd>
         <kbd
           className={
-            'dark:bg-dark text-gray-30 me-1 inline-flex h-5 w-10 items-center justify-center rounded-md border border-transparent bg-white p-0 text-center align-middle text-xs'
+            'text-gray-30 me-1 inline-flex h-5 w-10 items-center justify-center rounded-md border border-transparent bg-white p-0 text-center align-middle text-xs dark:bg-black'
           }
         >
           K

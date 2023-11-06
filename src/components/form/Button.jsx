@@ -4,7 +4,7 @@ export default function Button({ onClick, children, className = '', textOnly = f
     <div
       className={`${className} ${
         textOnly ? 'xs:px-3 px-1.5 py-1.5 sm:px-4' : ''
-      } hover: flex cursor-pointer items-center justify-center rounded-full hover:bg-dark/5 dark:hover:bg-dark-text/5`}
+      } hover: flex cursor-pointer items-center justify-center rounded-full hover:bg-black/5 active:scale-95 dark:hover:bg-dark-text/5`}
       onClick={onClick}
     >
       {children}

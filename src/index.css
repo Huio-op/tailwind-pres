@@ -7,6 +7,12 @@
     src: local('MyFont'), url(/fonts/Optimistic_Text_W_Md.woff2) format('woff2');
 }
 
+@font-face {
+    font-family: 'Optimistic Display';
+    src: local('MyFont'), url(/fonts/Optimistic_Display_W_Md.woff2) format('woff2');
+}
+
+
 :root {
     font-family: Optimistic Text,-apple-system,ui-sans-serif,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
